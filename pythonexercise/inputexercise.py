@@ -1,0 +1,10 @@
+user_input = input('What would you like the cat to say')
+text_length = len(user_input)
+# print underline based on length of user input
+print('              {}'.format('_' * text_length))
+print('           <  {}  >'.format(user_input))
+print('              {}'.format('-' * text_length))
+print('             /')
+print('  /\_/\     /')
+print(' ( 0.0 ) ' )
+print('  > ^ <' )
